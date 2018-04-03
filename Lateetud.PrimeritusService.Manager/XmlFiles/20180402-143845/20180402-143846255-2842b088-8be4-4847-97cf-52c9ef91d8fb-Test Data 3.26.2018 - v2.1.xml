@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Vendor_AssignmentRecord_v13 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClientName>Chrysler Capital - Skip 3rd Placement</ClientName>
+  <AssignmentTypeName>Involuntary</AssignmentTypeName>
+  <AssignmentIdentity>
+  </AssignmentIdentity>
+  <ClientAccountNumber>
+  </ClientAccountNumber>
+  <LoanNumber>8886424</LoanNumber>
+  <LienHolder>Chrysler Capital - Skip 3rd Placement</LienHolder>
+  <Year>2014</Year>
+  <Make>Chrysler</Make>
+  <Model>200</Model>
+  <Vin>1C3CCBAB4EN209353</Vin>
+  <ClientContact>Unassigned Needs Review</ClientContact>
+  <CollateralType>Automobile</CollateralType>
+  <ClientCompanyID>4485</ClientCompanyID>
+  <Persons>
+    <Person>
+      <First_Name>Cody Suman</First_Name>
+      <SSN>147259025</SSN>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+    </Person>
+    <Person>
+      <First_Name>Chris A Brandhorst</First_Name>
+      <SSN>321654851</SSN>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+    </Person>
+  </Persons>
+  <Addresses>
+    <Address>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Address_Line_1>1468 WINDWARD</Address_Line_1>
+      <City>NORTON SHORES</City>
+      <State>MI</State>
+      <Zip_Code>49444</Zip_Code>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Address_Line_1>1751 Evanston Ave</Address_Line_1>
+      <City>Muskegon</City>
+      <State>MI</State>
+      <Zip_Code>49442</Zip_Code>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Address_Line_1>2540 Gravois Rd.</Address_Line_1>
+      <City>Saint Clair</City>
+      <State>MO</State>
+      <Zip_Code>63077</Zip_Code>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Address>
+  </Addresses>
+  <ContactInformation>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>909-888-5455</Phone_Number>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>603-733-8464</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>772-353-6981</Phone_Number>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>240-705-5745</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+  </ContactInformation>
+</Vendor_AssignmentRecord_v13>

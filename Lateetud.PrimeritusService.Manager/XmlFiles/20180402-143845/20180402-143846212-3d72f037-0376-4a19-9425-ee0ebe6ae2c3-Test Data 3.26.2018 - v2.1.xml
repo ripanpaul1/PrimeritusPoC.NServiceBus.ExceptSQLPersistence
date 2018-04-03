@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Vendor_AssignmentRecord_v13 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClientName>Santander Consumer USA</ClientName>
+  <AssignmentTypeName>Involuntary</AssignmentTypeName>
+  <AssignmentIdentity>
+  </AssignmentIdentity>
+  <ClientAccountNumber>14577814</ClientAccountNumber>
+  <LoanNumber>4691687</LoanNumber>
+  <LienHolder>Santander Consumer USA</LienHolder>
+  <Year>2015</Year>
+  <Make>Honda</Make>
+  <Model>Civic</Model>
+  <Vin>19XFB2F86FE007595</Vin>
+  <ClientContact>Unassigned Needs Review</ClientContact>
+  <CollateralType>Automobile</CollateralType>
+  <ClientCompanyID>2385</ClientCompanyID>
+  <Persons>
+    <Person>
+      <First_Name>Dominique Fancyboy</First_Name>
+      <SSN>147258990</SSN>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+    </Person>
+    <Person>
+      <First_Name>ROGER CASTILLO</First_Name>
+      <SSN>321654816</SSN>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+    </Person>
+  </Persons>
+  <Addresses>
+    <Address>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Address_Line_1>315 W 7TH ST APT 2</Address_Line_1>
+      <City>ERIE</City>
+      <State>PA</State>
+      <Zip_Code>16502</Zip_Code>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Address_Line_1>1346 BALLISTA AVE</Address_Line_1>
+      <City>LA PUENTE</City>
+      <State>CA</State>
+      <Zip_Code>91744</Zip_Code>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Address>
+  </Addresses>
+  <ContactInformation>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>808-738-6710</Phone_Number>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>270-404-5191</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>209-954-1601</Phone_Number>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>585-297-9956</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+  </ContactInformation>
+</Vendor_AssignmentRecord_v13>

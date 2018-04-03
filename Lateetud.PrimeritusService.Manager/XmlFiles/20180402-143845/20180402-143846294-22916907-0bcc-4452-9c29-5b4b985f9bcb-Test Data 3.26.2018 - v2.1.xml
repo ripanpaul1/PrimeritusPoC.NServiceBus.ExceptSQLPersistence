@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Vendor_AssignmentRecord_v13 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClientName>Chrysler Capital 3rd Placement</ClientName>
+  <AssignmentTypeName>Involuntary</AssignmentTypeName>
+  <AssignmentIdentity>
+  </AssignmentIdentity>
+  <ClientAccountNumber>14583571</ClientAccountNumber>
+  <LoanNumber>2832499</LoanNumber>
+  <LienHolder>Chrysler Capital 3rd Placement</LienHolder>
+  <Year>2015</Year>
+  <Make>Chrysler</Make>
+  <Model>200</Model>
+  <Vin>1C3CCCAB4FN710587</Vin>
+  <ClientContact>Unassigned Needs Review</ClientContact>
+  <CollateralType>Automobile</CollateralType>
+  <ClientCompanyID>4482</ClientCompanyID>
+  <Persons>
+    <Person>
+      <First_Name>Dorothy Knight</First_Name>
+      <SSN>147259059</SSN>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+    </Person>
+    <Person>
+      <First_Name>Anthony Johnson</First_Name>
+      <SSN>321654885</SSN>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+    </Person>
+  </Persons>
+  <Addresses>
+    <Address>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Address_Line_1>9125 BRNADYWIN</Address_Line_1>
+      <City>TOBYHANNA</City>
+      <State>PA</State>
+      <Zip_Code>18466</Zip_Code>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Address_Line_1>54262 COUNTY STATE CSAH7 HIGHWAY</Address_Line_1>
+      <City>COSMOS</City>
+      <State>MN</State>
+      <Zip_Code>56228</Zip_Code>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Address_Line_1>54262 county road 7 highway</Address_Line_1>
+      <City>Cosmos</City>
+      <State>MN</State>
+      <Zip_Code>56228</Zip_Code>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Address>
+  </Addresses>
+  <ContactInformation>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>727-255-1953</Phone_Number>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>936-537-7105</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>502-551-8464</Phone_Number>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>412-400-4624</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+  </ContactInformation>
+</Vendor_AssignmentRecord_v13>

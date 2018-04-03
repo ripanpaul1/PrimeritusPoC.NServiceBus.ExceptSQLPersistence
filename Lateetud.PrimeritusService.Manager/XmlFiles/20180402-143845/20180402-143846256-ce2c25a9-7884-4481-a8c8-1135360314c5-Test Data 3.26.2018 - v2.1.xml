@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Vendor_AssignmentRecord_v13 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClientName>Santander Consumer USA</ClientName>
+  <AssignmentTypeName>Involuntary</AssignmentTypeName>
+  <AssignmentIdentity>
+  </AssignmentIdentity>
+  <ClientAccountNumber>14580134</ClientAccountNumber>
+  <LoanNumber>8036309</LoanNumber>
+  <LienHolder>Santander Consumer USA</LienHolder>
+  <Year>2012</Year>
+  <Make>Chrysler</Make>
+  <Model>200</Model>
+  <Vin>1C3CCBAB6CN149928</Vin>
+  <ClientContact>Unassigned Needs Review</ClientContact>
+  <CollateralType>Automobile</CollateralType>
+  <ClientCompanyID>2385</ClientCompanyID>
+  <Persons>
+    <Person>
+      <First_Name>Amato Miller</First_Name>
+      <SSN>147259026</SSN>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+    </Person>
+    <Person>
+      <First_Name>Betty Ybarra</First_Name>
+      <SSN>321654852</SSN>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+    </Person>
+  </Persons>
+  <Addresses>
+    <Address>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Address_Line_1>834 ARBORETUM WAY #3</Address_Line_1>
+      <City>CANTON</City>
+      <State>MA</State>
+      <Zip_Code>2021</Zip_Code>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Address_Line_1>715 MESQUITE ST</Address_Line_1>
+      <City>JOURDANTON</City>
+      <State>TX</State>
+      <Zip_Code>78026</Zip_Code>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Address_Line_1>3054 E SOUTHCROSS</Address_Line_1>
+      <City>SAN ANTONIO</City>
+      <State>TX</State>
+      <Zip_Code>78223</Zip_Code>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Address>
+  </Addresses>
+  <ContactInformation>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>915-212-0205</Phone_Number>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>603-953-4895</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>703-618-4024</Phone_Number>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>443-450-3680</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+  </ContactInformation>
+</Vendor_AssignmentRecord_v13>

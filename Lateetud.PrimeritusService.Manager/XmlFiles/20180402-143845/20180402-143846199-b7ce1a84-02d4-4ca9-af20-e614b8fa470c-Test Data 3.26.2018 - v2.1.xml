@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Vendor_AssignmentRecord_v13 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClientName>HFS BKC</ClientName>
+  <AssignmentTypeName>Involuntary</AssignmentTypeName>
+  <AssignmentIdentity>
+  </AssignmentIdentity>
+  <ClientAccountNumber>14582539</ClientAccountNumber>
+  <LoanNumber>309340902</LoanNumber>
+  <LienHolder>HFS BKC</LienHolder>
+  <Year>2015</Year>
+  <Make>Honda</Make>
+  <Model>Civic</Model>
+  <Vin>19XFB2F56FE221508</Vin>
+  <ClientContact>Unassigned</ClientContact>
+  <CollateralType>Automobile</CollateralType>
+  <ClientCompanyID>1381</ClientCompanyID>
+  <Persons>
+    <Person>
+      <First_Name>WILLIAM VICOLA</First_Name>
+      <SSN>147258981</SSN>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+    </Person>
+    <Person>
+      <First_Name>Shawn Johnston</First_Name>
+      <SSN>321654807</SSN>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+    </Person>
+  </Persons>
+  <Addresses>
+    <Address>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Address_Line_1>412 E Cedar Ave</Address_Line_1>
+      <City>Connellsville</City>
+      <State>PA</State>
+      <Zip_Code>15425</Zip_Code>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Address_Line_1>412 E Cedar Ave</Address_Line_1>
+      <City>Connellsville</City>
+      <State>PA</State>
+      <Zip_Code>15425</Zip_Code>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Address_Line_1>706 WATERFORD WAY</Address_Line_1>
+      <City>LOS BANOS</City>
+      <State>CA</State>
+      <Zip_Code>93635</Zip_Code>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Address>
+  </Addresses>
+  <ContactInformation>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>480-833-3200</Phone_Number>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>859-699-0486</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>323-466-5421</Phone_Number>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>516-852-8897</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+  </ContactInformation>
+</Vendor_AssignmentRecord_v13>

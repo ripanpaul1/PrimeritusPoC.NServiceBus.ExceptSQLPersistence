@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Vendor_AssignmentRecord_v13 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClientName>CITIZENS AUTOMOBILE FINANCE INC-TERR F</ClientName>
+  <AssignmentTypeName>Involuntary</AssignmentTypeName>
+  <AssignmentIdentity>
+  </AssignmentIdentity>
+  <ClientAccountNumber>14583180</ClientAccountNumber>
+  <LoanNumber>2744673449</LoanNumber>
+  <LienHolder>CITIZENS</LienHolder>
+  <Year>2012</Year>
+  <Make>Chrysler</Make>
+  <Model>200</Model>
+  <Vin>1C3CCBBB2CN213140</Vin>
+  <ClientContact>RAY DOEG</ClientContact>
+  <CollateralType>Automobile</CollateralType>
+  <ClientCompanyID>1393</ClientCompanyID>
+  <Persons>
+    <Person>
+      <First_Name>CARPET EQUIP CARPET EQUIP</First_Name>
+      <SSN>147259036</SSN>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+    </Person>
+    <Person>
+      <First_Name>Bobby Owens</First_Name>
+      <SSN>321654862</SSN>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+    </Person>
+  </Persons>
+  <Addresses>
+    <Address>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Address_Line_1>158 WILTSHIRE DR</Address_Line_1>
+      <City>DALTON</City>
+      <State>GA</State>
+      <Zip_Code>30721</Zip_Code>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Address_Line_1>189 W GARRETT RD</Address_Line_1>
+      <City>GARRETT</City>
+      <State>KY</State>
+      <Zip_Code>41630</Zip_Code>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Address>
+  </Addresses>
+  <ContactInformation>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>660-441-3571</Phone_Number>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>502-320-7731</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>315-212-7677</Phone_Number>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>267-918-2088</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+  </ContactInformation>
+</Vendor_AssignmentRecord_v13>

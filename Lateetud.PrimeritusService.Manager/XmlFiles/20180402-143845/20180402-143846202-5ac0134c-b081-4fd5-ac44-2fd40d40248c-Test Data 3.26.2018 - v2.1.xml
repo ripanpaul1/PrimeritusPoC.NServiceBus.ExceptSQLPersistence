@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Vendor_AssignmentRecord_v13 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClientName>Santander Consumer USA</ClientName>
+  <AssignmentTypeName>Involuntary</AssignmentTypeName>
+  <AssignmentIdentity>
+  </AssignmentIdentity>
+  <ClientAccountNumber>14581574</ClientAccountNumber>
+  <LoanNumber>9129583</LoanNumber>
+  <LienHolder>Santander Consumer USA</LienHolder>
+  <Year>2012</Year>
+  <Make>Honda</Make>
+  <Model>Civic</Model>
+  <Vin>19XFB2F58CE020740</Vin>
+  <ClientContact>Unassigned Needs Review</ClientContact>
+  <CollateralType>Automobile</CollateralType>
+  <ClientCompanyID>2385</ClientCompanyID>
+  <Persons>
+    <Person>
+      <First_Name>KRISTEN HARTLAGE</First_Name>
+      <SSN>147258983</SSN>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+    </Person>
+    <Person>
+      <First_Name>Victoria Moses</First_Name>
+      <SSN>321654809</SSN>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+    </Person>
+  </Persons>
+  <Addresses>
+    <Address>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Address_Line_1>4106 BILTOWN RD</Address_Line_1>
+      <City>JEFFERSONTOWN</City>
+      <State>KY</State>
+      <Zip_Code>40299</Zip_Code>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Address_Line_1>302 4TH ST APT 126</Address_Line_1>
+      <City>SAN RAFAEL</City>
+      <State>CA</State>
+      <Zip_Code>94901</Zip_Code>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Address_Line_1>218 BENNETT HILL DR APT A</Address_Line_1>
+      <City>VACAVILLE</City>
+      <State>CA</State>
+      <Zip_Code>95688</Zip_Code>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Address>
+  </Addresses>
+  <ContactInformation>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>516-433-1011</Phone_Number>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>870-423-3345</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>501-305-1035</Phone_Number>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>917-921-1670</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+  </ContactInformation>
+</Vendor_AssignmentRecord_v13>

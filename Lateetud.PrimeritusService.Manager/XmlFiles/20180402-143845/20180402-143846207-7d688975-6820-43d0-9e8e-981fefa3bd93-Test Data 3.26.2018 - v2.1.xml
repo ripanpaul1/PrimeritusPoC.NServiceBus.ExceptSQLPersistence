@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Vendor_AssignmentRecord_v13 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClientName>HFS CENTRAL ATLANTIC REGION 7</ClientName>
+  <AssignmentTypeName>Involuntary</AssignmentTypeName>
+  <AssignmentIdentity>
+  </AssignmentIdentity>
+  <ClientAccountNumber>14579009</ClientAccountNumber>
+  <LoanNumber>308348602</LoanNumber>
+  <LienHolder>HFS CENTRAL ATLANTIC REGION 7</LienHolder>
+  <Year>2015</Year>
+  <Make>Honda</Make>
+  <Model>Civic</Model>
+  <Vin>19XFB2F59FE076321</Vin>
+  <ClientContact>Jan Hunter</ClientContact>
+  <CollateralType>Automobile</CollateralType>
+  <ClientCompanyID>3255</ClientCompanyID>
+  <Persons>
+    <Person>
+      <First_Name>CHELA HARRELL</First_Name>
+      <SSN>147258986</SSN>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+    </Person>
+    <Person>
+      <First_Name>Francisca Nunez</First_Name>
+      <SSN>321654812</SSN>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+    </Person>
+  </Persons>
+  <Addresses>
+    <Address>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Address_Line_1>na</Address_Line_1>
+      <City>Yorktown</City>
+      <State>VA</State>
+      <Zip_Code>23690</Zip_Code>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Address_Line_1>100 Rivermeade Ct</Address_Line_1>
+      <City>Yorktown</City>
+      <State>VA</State>
+      <Zip_Code>23690</Zip_Code>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Address_Line_1>810 CHELSEY STREET</Address_Line_1>
+      <City>EL PASO</City>
+      <State>TX</State>
+      <Zip_Code>79903</Zip_Code>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Address>
+  </Addresses>
+  <ContactInformation>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>607-621-3408</Phone_Number>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>720-250-8435</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>918-378-3226</Phone_Number>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>516-967-6319</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+  </ContactInformation>
+</Vendor_AssignmentRecord_v13>

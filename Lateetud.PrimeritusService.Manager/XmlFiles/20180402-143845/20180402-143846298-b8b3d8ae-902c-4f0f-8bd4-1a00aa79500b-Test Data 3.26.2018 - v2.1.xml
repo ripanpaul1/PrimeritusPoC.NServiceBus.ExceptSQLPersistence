@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Vendor_AssignmentRecord_v13 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClientName>TD Auto Finance LLC PRE - Skip</ClientName>
+  <AssignmentTypeName>Involuntary</AssignmentTypeName>
+  <AssignmentIdentity>
+  </AssignmentIdentity>
+  <ClientAccountNumber>14580150</ClientAccountNumber>
+  <LoanNumber>1101590616</LoanNumber>
+  <LienHolder>Chrysler Financial</LienHolder>
+  <Year>2016</Year>
+  <Make>Chrysler</Make>
+  <Model>200</Model>
+  <Vin>1C3CCCAB5GN129083</Vin>
+  <ClientContact>CONTACT CONTACT</ClientContact>
+  <CollateralType>Automobile</CollateralType>
+  <ClientCompanyID>5709</ClientCompanyID>
+  <Persons>
+    <Person>
+      <First_Name>BRENDA PESHLAKAI</First_Name>
+      <SSN>147259064</SSN>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+    </Person>
+    <Person>
+      <First_Name>DOMINNIQUE DARDEN</First_Name>
+      <SSN>321654890</SSN>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+    </Person>
+  </Persons>
+  <Addresses>
+    <Address>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Address_Line_1>4600 U.S. Highway 89</Address_Line_1>
+      <City>Flagstaff</City>
+      <State>AZ</State>
+      <Zip_Code>86004</Zip_Code>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Address_Line_1>2650 HWY 89</Address_Line_1>
+      <City>Flagstaff</City>
+      <State>AZ</State>
+      <Zip_Code>86001</Zip_Code>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Address_Line_1>9507 RHODE ISLAND ST</Address_Line_1>
+      <City>HOUSTON</City>
+      <State>TX</State>
+      <Zip_Code>77029</Zip_Code>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Address_Line_1>3131 W BELLFORT</Address_Line_1>
+      <City>HOUSTON</City>
+      <State>TX</State>
+      <Zip_Code>77054</Zip_Code>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Address>
+  </Addresses>
+  <ContactInformation>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>813-484-4541</Phone_Number>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>713-319-6091</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>314-827-7421</Phone_Number>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>702-286-6495</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+  </ContactInformation>
+</Vendor_AssignmentRecord_v13>

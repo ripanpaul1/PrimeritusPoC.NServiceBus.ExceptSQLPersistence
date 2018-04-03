@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Vendor_AssignmentRecord_v13 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ClientName>HFS NORTHWEST REGION 6</ClientName>
+  <AssignmentTypeName>Involuntary</AssignmentTypeName>
+  <AssignmentIdentity>
+  </AssignmentIdentity>
+  <ClientAccountNumber>14561240</ClientAccountNumber>
+  <LoanNumber>182374349</LoanNumber>
+  <LienHolder>HFS NORTHWEST REGION 6</LienHolder>
+  <Year>2015</Year>
+  <Make>Acura</Make>
+  <Model>ILX</Model>
+  <Vin>19VDE1F36FE000135</Vin>
+  <ClientContact>Aries Ella</ClientContact>
+  <CollateralType>Automobile</CollateralType>
+  <ClientCompanyID>3709</ClientCompanyID>
+  <Persons>
+    <Person>
+      <First_Name>EDWIN PINTO</First_Name>
+      <SSN>147258970</SSN>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+    </Person>
+    <Person>
+      <First_Name>Judith Lindauer-Gosik</First_Name>
+      <SSN>321654796</SSN>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+    </Person>
+  </Persons>
+  <Addresses>
+    <Address>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Address_Line_1>13670 SW STIRRUP CT</Address_Line_1>
+      <City>BEAVERTON</City>
+      <State>OR</State>
+      <Zip_Code>97008</Zip_Code>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Address>
+    <Address>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Address_Line_1>68 Quiet Desert Ln</Address_Line_1>
+      <City>Henderson</City>
+      <State>NV</State>
+      <Zip_Code>89074</Zip_Code>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Address>
+  </Addresses>
+  <ContactInformation>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>925-872-9446</Phone_Number>
+      <Debtor_Address_Type_Name>1</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>14</Debtor_Type_Name>
+      <Phone_Number>606-280-6458</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>323-733-4988</Phone_Number>
+      <Debtor_Address_Type_Name>3</Debtor_Address_Type_Name>
+    </Contact>
+    <Contact>
+      <Debtor_Type_Name>22</Debtor_Type_Name>
+      <Phone_Number>313-433-1027</Phone_Number>
+      <Debtor_Address_Type_Name>
+      </Debtor_Address_Type_Name>
+    </Contact>
+  </ContactInformation>
+</Vendor_AssignmentRecord_v13>
