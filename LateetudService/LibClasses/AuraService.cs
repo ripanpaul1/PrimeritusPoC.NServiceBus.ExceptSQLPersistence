@@ -1,4 +1,8 @@
-﻿using System;
+﻿using LateetudService.Models;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.IO;
 using System.Text;
 using System.Xml.Serialization;
@@ -543,6 +547,26 @@ namespace LateetudService.LibClasses
                 }
             }
             catch (Exception ex)
+            {
+                return null;
+            }
+        }
+
+        public string GetAuraReference(string ConnectionString, string StoredProcedure, string ClientReferenceNumber)
+        {
+            try
+            {
+                DMLService dMLService = new DMLService(ConnectionString);
+                List<VMParameter> vMParameters = new List<VMParameter>();
+                vMParameters.Add(new VMParameter("@ClientReferenceNumber", ClientReferenceNumber, SqlDbType.VarChar, 255));
+                SqlCommand command = dMLService.ConfigureCommand(StoredProcedure, CommandType.StoredProcedure, vMParameters);
+                DataTable dt = dMLService.ConfigureAdapter(command);
+                if (dt == null) return null;
+                if (dt.Rows.Count == 0) return null;
+                if (Convert.ToString(dt.Rows[0]["Assignment_Reference_Number"]) == "") return null;
+                return Convert.ToString(dt.Rows[0]["Assignment_Reference_Number"]);
+            }
+            catch
             {
                 return null;
             }

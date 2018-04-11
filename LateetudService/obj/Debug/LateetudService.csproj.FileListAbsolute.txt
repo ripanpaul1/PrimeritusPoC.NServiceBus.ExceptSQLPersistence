@@ -3,3 +3,9 @@ E:\OfficeWork\PrimeritusPoC.NServiceBus.ExceptSQLPersistence\LateetudService\bin
 E:\OfficeWork\PrimeritusPoC.NServiceBus.ExceptSQLPersistence\LateetudService\obj\Debug\LateetudService.csproj.CoreCompileInputs.cache
 E:\OfficeWork\PrimeritusPoC.NServiceBus.ExceptSQLPersistence\LateetudService\obj\Debug\LateetudService.dll
 E:\OfficeWork\PrimeritusPoC.NServiceBus.ExceptSQLPersistence\LateetudService\obj\Debug\LateetudService.pdb
+C:\primeritus\prj\PrimeritusPoC.NServiceBus.ExceptSQLPersistence\LateetudService\bin\Debug\LateetudService.dll
+C:\primeritus\prj\PrimeritusPoC.NServiceBus.ExceptSQLPersistence\LateetudService\bin\Debug\LateetudService.pdb
+C:\primeritus\prj\PrimeritusPoC.NServiceBus.ExceptSQLPersistence\LateetudService\obj\Debug\LateetudService.csprojResolveAssemblyReference.cache
+C:\primeritus\prj\PrimeritusPoC.NServiceBus.ExceptSQLPersistence\LateetudService\obj\Debug\LateetudService.csproj.CoreCompileInputs.cache
+C:\primeritus\prj\PrimeritusPoC.NServiceBus.ExceptSQLPersistence\LateetudService\obj\Debug\LateetudService.dll
+C:\primeritus\prj\PrimeritusPoC.NServiceBus.ExceptSQLPersistence\LateetudService\obj\Debug\LateetudService.pdb

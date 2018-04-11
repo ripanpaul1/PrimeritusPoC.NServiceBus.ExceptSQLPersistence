@@ -204,6 +204,8 @@
     </Content>
     <Content Include="Grid.mvc.readme" />
     <None Include="Connected Services\Primeritus\PrimeritusService.wsdl" />
+    <None Include="Properties\PublishProfiles\PrimeritusService.NServiceBus.Manager.pubxml" />
+    <None Include="Properties\PublishProfiles\PrimeritusService.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\gridmvc.js" />
     <Content Include="Scripts\gridmvc.lang.ru.js" />
