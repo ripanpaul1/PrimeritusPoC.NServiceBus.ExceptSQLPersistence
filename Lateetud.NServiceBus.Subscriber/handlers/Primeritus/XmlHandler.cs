@@ -15,7 +15,7 @@ namespace Lateetud.NServiceBus.Subscriber
         {
             try
             {
-                string TheFileContent = new AuraService().XmlToAuraString(message.Message);
+                string TheFileContent = new AuraService().XmlToAuraString(message.Message, message.RequestType);
                 if (TheFileContent == null) return Task.FromCanceled(new CancellationToken(true));
                 //if (!new PrimeritusXmlService().IsSendAura(TheFileContent)) return Task.FromCanceled(new CancellationToken(true));
                 return Task.CompletedTask;
