@@ -469,10 +469,16 @@ namespace LateetudService.LibClasses
 
         public string XmlToAuraString(string XmlString, string RequestType)
         {
+            return this.XmlToAuraString(XmlString, RequestType, null);
+        }
+
+        public string XmlToAuraString(string XmlString, string RequestType, string ConnectionString)
+        {
             if (XmlString == null) return null;
             if (!XmlString.Contains("xml")) return null;
             try
             {
+                if (string.IsNullOrWhiteSpace(RequestType)) return null;
                 if (RequestType == "1")
                 {
                     var vendor_AssignmentRecord_v13 = (Vendor_AssignmentRecord_v13)new XmlSerializer(typeof(Vendor_AssignmentRecord_v13)).Deserialize(new MemoryStream(Encoding.UTF8.GetBytes(XmlString)));
@@ -550,11 +556,22 @@ namespace LateetudService.LibClasses
                 }
                 else if (RequestType == "2")
                 {
-                    StringBuilder data = new StringBuilder();
+                    if (string.IsNullOrWhiteSpace(ConnectionString)) return null;
+
+                    // load data from xml to model
+
+
+                    string AuraReference = this.GetAuraReference(ConnectionString, "GetProcessReference", "1234");
+                    if (AuraReference == null) return null;
+                    else
+                    {
+                        StringBuilder data = new StringBuilder();
 
 
 
-                    return data.ToString();
+
+                        return data.ToString();
+                    }
                 }
                 return null;
             }

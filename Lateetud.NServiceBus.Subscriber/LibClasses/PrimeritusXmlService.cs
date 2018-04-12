@@ -13,20 +13,26 @@ namespace Lateetud.NServiceBus.Subscriber.LibClasses
         {
             try
             {
-                if (RequestType == "1")
+                if (!string.IsNullOrWhiteSpace(RequestType))
                 {
-                    //com.renovo.test.aptest.RequestAssignment assignment = new com.renovo.test.aptest.RequestAssignment();
-                    //System.Net.ServicePointManager.ServerCertificateValidationCallback = ((sender, cert, chain, errors) => cert.Subject.Contains("test.renovo.com"));
-                    //assignment.Credentials = new NetworkCredential("rpaul", "Recovery@1991");
-                    //if (assignment._RequestAssignment(aurastring) <= 0) return false;
+                    System.Net.ServicePointManager.ServerCertificateValidationCallback = ((sender, cert, chain, errors) => cert.Subject.Contains("test.renovo.com"));
+                    if (RequestType == "1")
+                    {
+                        com.renovo.test.aptest.RequestAssignment assignment = new com.renovo.test.aptest.RequestAssignment();
+                        assignment.Credentials = new NetworkCredential("rpaul", "Recovery@1991");
+                        if (assignment._RequestAssignment(aurastring) <= 0) return false;
+                    }
+                    else if (RequestType == "2")
+                    {
+                        com.renovo.test.aptest1.EM1_ASG_NOTE_UPDATE assignment = new com.renovo.test.aptest1.EM1_ASG_NOTE_UPDATE();
+                        assignment.Credentials = new NetworkCredential("rpaul", "Recovery@1991");
+                        if (assignment._EM1_ASG_NOTE_UPDATE(aurastring) <= 0) return false;
+                    }
+                    return true;
                 }
-                else if (RequestType == "2")
-                {
-
-                }
-                return true;
+                return false;
             }
-            catch
+            catch (Exception err)
             {
                 return false;
             }

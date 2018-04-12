@@ -101,6 +101,11 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Web References\com.renovo.test.aptest1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
     <Compile Include="Web References\com.renovo.test.aptest\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -113,6 +118,11 @@
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\com.renovo.test.aptest1\EM1_ASG_NOTE_UPDATE.wsdl" />
+    <None Include="Web References\com.renovo.test.aptest1\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
     <None Include="Web References\com.renovo.test.aptest\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
@@ -144,6 +154,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <WebReferenceUrl Include="https://aptest.test.renovo.com/WS/EM1_ASG_NOTE_UPDATE.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\com.renovo.test.aptest1\</RelPath>
+      <UpdateFromURL>https://aptest.test.renovo.com/WS/EM1_ASG_NOTE_UPDATE.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Lateetud_NServiceBus_Subscriber_com_renovo_test_aptest1_EM1_ASG_NOTE_UPDATE</CachedSettingsPropName>
+    </WebReferenceUrl>
     <WebReferenceUrl Include="https://aptest.test.renovo.com/WS/RequestAssignment.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\com.renovo.test.aptest\</RelPath>
@@ -158,6 +179,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Web References\com.renovo.test.aptest\RequestAssignment.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\com.renovo.test.aptest1\EM1_ASG_NOTE_UPDATE.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -28,18 +28,12 @@ namespace Lateetud.NServiceBus.Subscriber
 
         public void ServiceConfig()
         {
-            MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration("", "primeritus.error", 50, 5);
+            MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration("", ConfigurationManager.AppSettings["ErrorQueue"], 50, 5);
 
             List<PublisherEndpoints> publisherEndpoints = new List<PublisherEndpoints>();
-            publisherEndpoints.Add(new PublisherEndpoints(endpointName: "primeritus.publisher", messageType: typeof(VMXml)));
-            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("primeritus.subscriber", publisherEndpoints);
+            publisherEndpoints.Add(new PublisherEndpoints(endpointName: ConfigurationManager.AppSettings["PublisherQueue"], messageType: typeof(VMXml)));
+            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint(ConfigurationManager.AppSettings["SubscriberQueue"], publisherEndpoints);
             msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
-
-            //publisherEndpoints.Clear();
-            //publisherEndpoints.Add(new PublisherEndpoints(endpointName: "smart.publisher", messageType: typeof(RPA)));
-            //endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("smart.subscriber", publisherEndpoints);
-            //msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
-
         }
     }
 }

@@ -16,14 +16,14 @@ namespace Lateetud.NServiceBus.Publisher.api
     // [System.Web.Script.Services.ScriptService]
     public class PrimeritusService : System.Web.Services.WebService
     {
-        MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration("", "primeritus.error", 50, 5);
+        MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration("", ConfigurationManager.AppSettings["ErrorQueue"], 50, 5);
 
         [WebMethod]
         public string CreatePublisherQueues()
         {
             try
             {
-                var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("primeritus.publisher");
+                var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint(ConfigurationManager.AppSettings["PublisherQueue"]);
                 msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
 
                 return "Created publishers queues";
@@ -41,7 +41,8 @@ namespace Lateetud.NServiceBus.Publisher.api
             try
             {
                 var requestId = "ixs-" + Guid.NewGuid();
-                return msmqsqldbconfig.PublishedToBus(msmqsqldbconfig.ConfigureEndpoint("primeritus.publisher"), new VMXml { RequestID = requestId, Message = XmlString, RequestType = RequestType });
+                return msmqsqldbconfig.PublishedToBus(msmqsqldbconfig.ConfigureEndpoint(ConfigurationManager.AppSettings["PublisherQueue"]), 
+                    new VMXml { RequestID = requestId, Message = XmlString, RequestType = RequestType });
             }
             catch (Exception err)
             {

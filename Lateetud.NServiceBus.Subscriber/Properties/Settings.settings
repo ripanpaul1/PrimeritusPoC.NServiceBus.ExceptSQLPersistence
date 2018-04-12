@@ -5,5 +5,8 @@
     <Setting Name="Lateetud_NServiceBus_Subscriber_com_renovo_test_aptest_RequestAssignment" Type="(Web Service URL)" Scope="Application">
       <Value Profile="(Default)">https://aptest.test.renovo.com/WS/RequestAssignment.asmx</Value>
     </Setting>
+    <Setting Name="Lateetud_NServiceBus_Subscriber_com_renovo_test_aptest1_EM1_ASG_NOTE_UPDATE" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://aptest.test.renovo.com/WS/EM1_ASG_NOTE_UPDATE.asmx</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

@@ -32,5 +32,15 @@ namespace Lateetud.NServiceBus.Subscriber.Properties {
                 return ((string)(this["Lateetud_NServiceBus_Subscriber_com_renovo_test_aptest_RequestAssignment"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://aptest.test.renovo.com/WS/EM1_ASG_NOTE_UPDATE.asmx")]
+        public string Lateetud_NServiceBus_Subscriber_com_renovo_test_aptest1_EM1_ASG_NOTE_UPDATE {
+            get {
+                return ((string)(this["Lateetud_NServiceBus_Subscriber_com_renovo_test_aptest1_EM1_ASG_NOTE_UPDATE"]));
+            }
+        }
     }
 }

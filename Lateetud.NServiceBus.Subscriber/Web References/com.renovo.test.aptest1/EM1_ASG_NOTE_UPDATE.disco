@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://aptest.test.renovo.com/WS/EM1_ASG_NOTE_UPDATE.asmx?wsdl" docRef="https://aptest.test.renovo.com/WS/EM1_ASG_NOTE_UPDATE.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://aptest.test.renovo.com/WS/EM1_ASG_NOTE_UPDATE.asmx" xmlns:q1="http://tempuri.org/" binding="q1:EM1_ASG_NOTE_UPDATESoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://aptest.test.renovo.com/WS/EM1_ASG_NOTE_UPDATE.asmx" xmlns:q2="http://tempuri.org/" binding="q2:EM1_ASG_NOTE_UPDATESoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

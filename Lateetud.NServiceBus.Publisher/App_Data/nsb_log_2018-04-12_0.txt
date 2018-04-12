@@ -1,0 +1,490 @@
+﻿2018-04-12 03:10:30.547 INFO  DefaultFactory Logging to 'C:\primeritus\prj\PrimeritusPoC.NServiceBus.ExceptSQLPersistence\Lateetud.NServiceBus.Publisher\App_Data\' with level Info
+2018-04-12 03:10:30.719 WARN  NServiceBus.Features.MsmqSubscriptionPersistence Could not find configuration section for Msmq Subscription Storage and no name was specified for this endpoint. Going to default the subscription queue
+2018-04-12 03:10:31.094 INFO  NServiceBus.LicenseManager Selected active license from HKEY_CURRENT_USER\SOFTWARE\ParticularSoftware
+License Expiration: 11 April 2019
+
+2018-04-12 03:10:33.953 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'TEST\rpaul' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "TEST\rpaul" /add
+2018-04-12 03:10:34.078 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.error] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:10:34.110 WARN  NServiceBus.QueuePermissions Queue [private$\NServiceBus.Subscriptions] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:10:34.157 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.Timeouts] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:10:34.235 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:10:34.282 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.Retries] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:10:34.313 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:10:34.375 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:10:34.391 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:10:34.438 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:16:53.591 INFO  DefaultFactory Logging to 'C:\primeritus\prj\PrimeritusPoC.NServiceBus.ExceptSQLPersistence\Lateetud.NServiceBus.Publisher\App_Data\' with level Info
+2018-04-12 03:16:53.794 WARN  NServiceBus.Features.MsmqSubscriptionPersistence Could not find configuration section for Msmq Subscription Storage and no name was specified for this endpoint. Going to default the subscription queue
+2018-04-12 03:16:54.138 INFO  NServiceBus.LicenseManager Selected active license from HKEY_CURRENT_USER\SOFTWARE\ParticularSoftware
+License Expiration: 11 April 2019
+
+2018-04-12 03:16:54.279 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'TEST\rpaul' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "TEST\rpaul" /add
+2018-04-12 03:16:54.404 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.error] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:16:54.435 WARN  NServiceBus.QueuePermissions Queue [private$\NServiceBus.Subscriptions] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:16:54.466 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.Timeouts] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:16:54.482 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:16:54.497 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.Retries] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:16:54.529 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:16:54.544 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:16:54.560 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:16:54.575 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:16:54.638 INFO  NServiceBus.Unicast.UnicastBus Initiating shutdown.
+2018-04-12 03:16:57.357 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:16:57.388 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqReceive is now in the armed state
+2018-04-12 03:16:57.575 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:16:58.263 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:16:58.591 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:16:59.638 INFO  NServiceBus.Unicast.UnicastBus Shutdown complete.
+2018-04-12 03:22:06.665 WARN  NServiceBus.Features.MsmqSubscriptionPersistence Could not find configuration section for Msmq Subscription Storage and no name was specified for this endpoint. Going to default the subscription queue
+2018-04-12 03:22:06.728 INFO  NServiceBus.LicenseManager Selected active license from HKEY_CURRENT_USER\SOFTWARE\ParticularSoftware
+License Expiration: 11 April 2019
+
+2018-04-12 03:22:06.759 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'TEST\rpaul' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "TEST\rpaul" /add
+2018-04-12 03:22:06.806 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.error] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:22:06.837 WARN  NServiceBus.QueuePermissions Queue [private$\NServiceBus.Subscriptions] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:22:06.884 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.Timeouts] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:22:06.931 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:22:06.978 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.Retries] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:22:07.009 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:22:07.025 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:22:07.040 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:22:07.072 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:22:07.103 INFO  NServiceBus.Unicast.UnicastBus Initiating shutdown.
+2018-04-12 03:22:07.431 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:22:07.447 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqReceive is now in the armed state
+2018-04-12 03:22:07.993 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:22:08.478 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:22:08.853 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:22:09.884 INFO  NServiceBus.Unicast.UnicastBus Shutdown complete.
+2018-04-12 03:24:20.002 WARN  NServiceBus.Features.MsmqSubscriptionPersistence Could not find configuration section for Msmq Subscription Storage and no name was specified for this endpoint. Going to default the subscription queue
+2018-04-12 03:24:20.049 INFO  NServiceBus.LicenseManager Selected active license from HKEY_CURRENT_USER\SOFTWARE\ParticularSoftware
+License Expiration: 11 April 2019
+
+2018-04-12 03:24:20.064 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'TEST\rpaul' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "TEST\rpaul" /add
+2018-04-12 03:24:20.127 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.error] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:24:20.189 WARN  NServiceBus.QueuePermissions Queue [private$\NServiceBus.Subscriptions] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:24:20.283 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.Timeouts] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:24:20.361 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:24:20.408 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.Retries] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:24:20.439 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:24:20.471 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:24:20.486 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:24:20.502 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:24:26.099 INFO  NServiceBus.Unicast.UnicastBus Initiating shutdown.
+2018-04-12 03:24:26.115 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:24:26.099 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:24:26.161 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqReceive is now in the armed state
+2018-04-12 03:24:26.474 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:24:26.802 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:24:27.849 INFO  NServiceBus.Unicast.UnicastBus Shutdown complete.
+2018-04-12 03:30:24.048 INFO  DefaultFactory Logging to 'C:\primeritus\prj\PrimeritusPoC.NServiceBus.ExceptSQLPersistence\Lateetud.NServiceBus.Publisher\App_Data\' with level Info
+2018-04-12 03:30:24.251 WARN  NServiceBus.Features.MsmqSubscriptionPersistence Could not find configuration section for Msmq Subscription Storage and no name was specified for this endpoint. Going to default the subscription queue
+2018-04-12 03:30:24.532 INFO  NServiceBus.LicenseManager Selected active license from HKEY_CURRENT_USER\SOFTWARE\ParticularSoftware
+License Expiration: 11 April 2019
+
+2018-04-12 03:30:24.720 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'TEST\rpaul' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "TEST\rpaul" /add
+2018-04-12 03:30:24.907 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.error] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:30:24.939 WARN  NServiceBus.QueuePermissions Queue [private$\NServiceBus.Subscriptions] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:30:24.970 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.Timeouts] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:30:25.001 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.TimeoutsDispatcher] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:30:25.032 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher.Retries] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:30:25.079 WARN  NServiceBus.QueuePermissions Queue [private$\primeritus.publisher] is running with [Everyone] with AccessRights set to [GetQueueProperties, GetQueuePermissions]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-04-12 03:30:25.126 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:30:25.173 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:30:25.204 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-04-12 03:30:25.267 INFO  NServiceBus.Unicast.UnicastBus Initiating shutdown.
+2018-04-12 03:30:25.767 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:30:25.845 WARN  NServiceBus.RepeatedFailuresOverTimeCircuitBreaker The circuit breaker for MsmqReceive is now in the armed state
+2018-04-12 03:30:26.126 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:30:26.657 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:30:27.126 WARN  NServiceBus.MessagePump MSMQ receive operation failed
+System.Transactions.TransactionAbortedException: The transaction has aborted. ---> System.Transactions.TransactionManagerCommunicationException: Communication with the underlying transaction manager has failed. ---> System.Runtime.InteropServices.COMException: The Transaction Manager is not available. (Exception from HRESULT: 0x8004D01B)
+   at System.Transactions.Oletx.IDtcProxyShimFactory.ConnectToProxy(String nodeName, Guid resourceManagerIdentifier, IntPtr managedIdentifier, Boolean& nodeNameMatches, UInt32& whereaboutsSize, CoTaskMemHandle& whereaboutsBuffer, IResourceManagerShim& resourceManagerShim)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   --- End of inner exception stack trace ---
+   at System.Transactions.Oletx.OletxTransactionManager.ProxyException(COMException comException)
+   at System.Transactions.Oletx.DtcTransactionManager.Initialize()
+   at System.Transactions.Oletx.DtcTransactionManager.get_ProxyShimFactory()
+   at System.Transactions.Oletx.OletxTransactionManager.CreateTransaction(TransactionOptions properties)
+   at System.Transactions.TransactionStatePromoted.EnterState(InternalTransaction tx)
+   --- End of inner exception stack trace ---
+   at System.Transactions.TransactionStateAborted.CheckForFinishedTransaction(InternalTransaction tx)
+   at System.Transactions.EnlistableStates.Promote(InternalTransaction tx)
+   at System.Transactions.Transaction.Promote()
+   at System.Transactions.TransactionInterop.ConvertToOletxTransaction(Transaction transaction)
+   at System.Transactions.TransactionInterop.GetDtcTransaction(Transaction transaction)
+   at System.Messaging.MessageQueue.StaleSafeReceiveMessage(UInt32 timeout, Int32 action, MQPROPS properties, NativeOverlapped* overlapped, ReceiveCallback receiveCallback, CursorHandle cursorHandle, IntPtr transaction)
+   at System.Messaging.MessageQueue.ReceiveCurrent(TimeSpan timeout, Int32 action, CursorHandle cursor, MessagePropertyFilter filter, MessageQueueTransaction internalTransaction, MessageQueueTransactionType transactionType)
+   at System.Messaging.MessageQueue.Receive(TimeSpan timeout, MessageQueueTransactionType transactionType)
+   at NServiceBus.ReceiveStrategy.TryReceive(MessageQueueTransactionType transactionType, Message& message) in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\ReceiveStrategy.cs:line 30
+   at NServiceBus.TransactionScopeStrategy.<ReceiveMessage>d__1.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\TransactionScopeStrategy.cs:line 58
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.MessagePump.<>c.<<ReceiveMessage>b__7_0>d.MoveNext() in C:\BuildAgent\work\a93f853f0c1b9532\src\NServiceBus.Core\Transports\Msmq\MessagePump.cs:line 181
+2018-04-12 03:30:28.157 INFO  NServiceBus.Unicast.UnicastBus Shutdown complete.
