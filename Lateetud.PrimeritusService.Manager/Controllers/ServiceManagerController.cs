@@ -18,10 +18,10 @@ namespace Lateetud.PrimeritusService.Manager.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult ExcelService(HttpPostedFileBase file, string SheetName)
+        public ActionResult ExcelService(HttpPostedFileBase file, string SheetName, string RequestType)
         {
             ViewBag.Title = "Excel Service";
-            return View("ExcelService", new LateetudService().ExcelToXml(file, SheetName, Server.MapPath("~/"), "TempFiles", "XmlFiles"));
+            return View("ExcelService", new LateetudService().ExcelToXml(file, SheetName, Server.MapPath("~/"), "TempFiles", "XmlFiles", RequestType));
         }
         #endregion
 

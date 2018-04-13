@@ -16,7 +16,7 @@ namespace Lateetud.NServiceBus.Subscriber
         {
             try
             {
-                string TheFileContent = new AuraService().XmlToAuraString(message.Message, message.RequestType, ConfigurationManager.ConnectionStrings["Lateetud.db.conn"].ConnectionString);
+                string TheFileContent = new AuraService().GetAuraString(message.Message, message.RequestType, ConfigurationManager.ConnectionStrings["Lateetud.db.conn"].ConnectionString);
                 if (TheFileContent == null) return Task.FromCanceled(new CancellationToken(true));
                 //if (!new PrimeritusXmlService().IsSendAura(TheFileContent, message.RequestType)) return Task.FromCanceled(new CancellationToken(true));
                 return Task.CompletedTask;

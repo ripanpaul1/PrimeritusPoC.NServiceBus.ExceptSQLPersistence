@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<NoteUpdate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SystemSource>irepo</SystemSource>
+  <ClientReferenceID>123456</ClientReferenceID>
+  <DateTimeStamp>04/13/2018 02:42:57 PM</DateTimeStamp>
+  <Notes>
+    <Note>
+      <NoteCreator>1084</NoteCreator>
+      <Note_GF>Additional</Note_GF>
+    </Note>
+  </Notes>
+</NoteUpdate>

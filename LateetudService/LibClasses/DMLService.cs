@@ -9,21 +9,30 @@ namespace LateetudService.LibClasses
     {
         private SqlConnection _connection = null;
         private SqlCommand _command = null;
-        SqlDataAdapter _adapter = null;
+        private SqlDataAdapter _adapter = null;
         private DataTable _dataTable = null;
-
-        private string _ConnectionString { get; set; }
-
+        private string _ConnectionString = null;
         public DMLService(string ConnectionString)
         {
             this._ConnectionString = ConnectionString;
         }
-
         private void ConfigureConnection()
         {
             this._connection = new SqlConnection(this._ConnectionString);
         }
-
+        private bool IsValidateConnection()
+        {
+            try
+            {
+                this.ConfigureConnection();
+                if (this._connection.State == ConnectionState.Closed) this._connection.Open();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
         public SqlCommand ConfigureCommand(string commandText, CommandType commandType)
         {
             return this.ConfigureCommand(commandText, commandType);
@@ -61,7 +70,6 @@ namespace LateetudService.LibClasses
                 return null;
             }
         }
-
         public DataTable ConfigureAdapter()
         {
             return this.ConfigureAdapter(this._command);
@@ -81,21 +89,5 @@ namespace LateetudService.LibClasses
                 return null;
             }
         }
-
-        private bool IsValidateConnection()
-        {
-            try
-            {
-                this.ConfigureConnection();
-                if (this._connection.State == ConnectionState.Closed) this._connection.Open();
-                return true;
-            }
-            catch
-            {
-                return false;
-            }
-        }
-
-        
     }
 }
