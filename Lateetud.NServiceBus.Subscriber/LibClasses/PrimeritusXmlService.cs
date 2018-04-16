@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Configuration;
 using System.Net;
+using Lateetud.Utilities;
+using System.IO;
 
 namespace Lateetud.NServiceBus.Subscriber.LibClasses
 {
@@ -34,6 +36,26 @@ namespace Lateetud.NServiceBus.Subscriber.LibClasses
                 return false;
             }
         }
-        
+
+        public bool IsTextFileCreation(string aurastring, string RequestType, string rootPath)
+        {
+            try
+            {
+                if (!string.IsNullOrWhiteSpace(RequestType))
+                {
+                    string DirectoryPath = Path.Combine(rootPath, "auraFolder");
+                    string fileName = "";
+                    if (RequestType == "1") fileName = DirectoryPath + "\\" + new RandomGenerator().RandomGuid() + "-new-assignment.txt";
+                    else if (RequestType == "2") fileName = DirectoryPath + "\\" + new RandomGenerator().RandomGuid() + "-note-update.txt";
+                    if (!new GeneralService().IsCreateTextFile(aurastring, DirectoryPath, fileName)) return false;
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception err)
+            {
+                return false;
+            }
+        }
     }
 }
