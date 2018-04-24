@@ -148,11 +148,9 @@ namespace LateetudService.LibClasses
         {
             try
             {
-                DMLService dMLService = new DMLService(ConnectionString);
                 List<VMParameter> vMParameters = new List<VMParameter>();
                 vMParameters.Add(new VMParameter("@ClientReferenceNumber", ClientReferenceNumber, SqlDbType.VarChar, 255));
-                SqlCommand command = dMLService.ConfigureCommand(StoredProcedure, CommandType.StoredProcedure, vMParameters);
-                DataTable dt = dMLService.ConfigureAdapter(command);
+                DataTable dt = new DMLService(ConnectionString).ConfigureAdapter(StoredProcedure, CommandType.StoredProcedure, vMParameters);
                 if (dt == null) return null;
                 if (dt.Rows.Count == 0) return null;
                 if (Convert.ToString(dt.Rows[0]["Assignment_Reference_Number"]).Trim() == "") return null;
